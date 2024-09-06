@@ -51,7 +51,7 @@ export default function CreateAccount() {
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}
-          name="email"
+          name="이름⭐"
           value={email}
           placeholder="Email"
           type="email"
@@ -60,7 +60,7 @@ export default function CreateAccount() {
         <Input
           onChange={onChange}
           value={password}
-          name="password"
+          name="비밀번호⭐"
           placeholder="Password"
           type="password"
           required
