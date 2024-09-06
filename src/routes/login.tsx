@@ -51,17 +51,17 @@ export default function CreateAccount() {
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}
-          name="이름⭐"
+          name="email"
           value={email}
-          placeholder="Email"
+          placeholder="이름⭐"
           type="email"
           required
         />
         <Input
           onChange={onChange}
           value={password}
-          name="비밀번호⭐"
-          placeholder="Password"
+          name="password"
+          placeholder="비밀번호⭐"
           type="password"
           required
         />
