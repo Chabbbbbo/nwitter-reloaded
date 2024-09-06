@@ -47,7 +47,7 @@ export default function CreateAccount() {
   };
   return (
     <Wrapper>
-      <Title>Log into 𝕏</Title>
+      <Title>놀러와요 나의 𝕏</Title>
       <Form onSubmit={onSubmit}>
         <Input
           onChange={onChange}
